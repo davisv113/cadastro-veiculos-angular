@@ -1,0 +1,13 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 1rem;
+}
+
+.home-card {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}

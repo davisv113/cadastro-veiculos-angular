@@ -1,0 +1,27 @@
+<p-table [value]="veiculos" [paginator]="true" [rows]="5" responsiveLayout="scroll">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Placa</th>
+      <th>Chassi</th>
+      <th>Renavam</th>
+      <th>Modelo</th>
+      <th>Marca</th>
+      <th>Ano</th>
+      <th class="text-center">Ações</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-veiculo>
+    <tr>
+      <td>{{ veiculo.placa }}</td>
+      <td>{{ veiculo.chassi }}</td>
+      <td>{{ veiculo.renavam }}</td>
+      <td>{{ veiculo.modelo }}</td>
+      <td>{{ veiculo.marca }}</td>
+      <td>{{ veiculo.ano }}</td>
+      <td class="text-center">
+        <button pButton icon="pi pi-pencil" class="p-button-sm p-button-text" (click)="editar(veiculo.id)"></button>
+        <button pButton icon="pi pi-trash" class="p-button-sm p-button-text p-button-danger" (click)="remover(veiculo.id)"></button>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>
