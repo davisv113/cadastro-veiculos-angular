@@ -4,7 +4,7 @@ Projeto desenvolvido como desafio técnico, utilizando as **novidades do Angular
 
 ## 🔗 Acesse o projeto
 
-👉 [Clique aqui para acessar o projeto publicado no GitHub Pages](https://davisv113.github.io/crud-veiculos/)
+👉 [Clique aqui para acessar o projeto publicado no GitHub Pages](https://davisv113.github.io/cadastro-veiculos-angular/)
 
 ---
 
